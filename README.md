@@ -17,10 +17,12 @@ To classify the MNIST dataset and achieve 99.4% test accuracy consistently using
 1. Baseline Model: (1_simple_CNN_architecture.ipynb)
    
 Goal: Design a simple CNN model with fewer than 8,000 parameters to establish a baseline.
+
 Results:
 Parameters: 7,348
 Best Train Accuracy: 80.05%
 Best Test Accuracy: 79.29%
+
 Analysis:
 The model is overfitting with low accuracy.
 Highlights the need for additional techniques to improve performance.
