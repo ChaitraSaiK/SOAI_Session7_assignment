@@ -14,7 +14,7 @@ To classify the MNIST dataset and achieve 99.4% test accuracy consistently using
 
 ## Approach and Results
 
-**1. Baseline Model: (1_simple_CNN_architecture.ipynb)**
+**### 1. Baseline Model: (1_simple_CNN_architecture.ipynb)**
    
 **Goal:** Design a simple CNN model with fewer than 8,000 parameters to establish a baseline.
 
@@ -27,7 +27,7 @@ Best Test Accuracy: 79.29%
 The model is overfitting with low accuracy.
 Highlights the need for additional techniques to improve performance.
 
-**2. Adding Batch Normalization: (2_BatchNormalization.ipynb)**
+**### 2. Adding Batch Normalization: (2_BatchNormalization.ipynb)**
 
 **Goal:** Incorporate Batch Normalization to enhance accuracy and training efficiency.
 
@@ -40,7 +40,7 @@ Best Test Accuracy: 99.32%
 Batch Normalization significantly improves the model's efficiency.
 However, the model continues to exhibit overfitting.
 
-**3. Introducing Dropout for Regularization: (3_Dropout.ipynb)**
+**### 3. Introducing Dropout for Regularization: (3_Dropout.ipynb)**
 
 **Goal:** Reduce overfitting by applying Dropout as a regularization technique.
 
@@ -53,7 +53,7 @@ Best Test Accuracy: 99.40%
 Dropout reduces the gap between train and test accuracy, mitigating overfitting.
 Regularization ensures that some neuron outputs are nullified, making the model more robust.
 
-**4. Applying Data Augmentation: (4_augmentation.ipynb)**
+**### 4. Applying Data Augmentation: (4_augmentation.ipynb)**
 
 **Goal:** Use data augmentation to create a more complex training dataset and further improve test accuracy.
 
