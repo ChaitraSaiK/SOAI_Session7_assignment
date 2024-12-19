@@ -83,7 +83,9 @@ This structured approach highlights the impact of each method in improving model
 
 ## Final Model
 
-Parameters: 7,348
-Best Test Accuracy: 99.42%
-Consistency: Achieved 99.4% test accuracy within 15 epochs in consecutive runs.
+**Parameters:** 7,348
+
+**Best Test Accuracy:** 99.42%
+
+**Consistency:** Achieved 99.4% test accuracy within 15 epochs in consecutive runs.
 This structured and iterative methodology ensures the efficient use of parameters and epochs to meet the target accuracy.
