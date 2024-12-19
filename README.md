@@ -14,49 +14,55 @@ To classify the MNIST dataset and achieve 99.4% test accuracy consistently using
 
 ## Approach and Results
 
-1. Baseline Model: (1_simple_CNN_architecture.ipynb)
+**1. Baseline Model: (1_simple_CNN_architecture.ipynb)**
    
-Goal: Design a simple CNN model with fewer than 8,000 parameters to establish a baseline.
+**Goal:** Design a simple CNN model with fewer than 8,000 parameters to establish a baseline.
 
-Results:
+**Results:**
 Parameters: 7,348
 Best Train Accuracy: 80.05%
 Best Test Accuracy: 79.29%
 
-Analysis:
+**Analysis:**
 The model is overfitting with low accuracy.
 Highlights the need for additional techniques to improve performance.
 
-2. Adding Batch Normalization: (2_BatchNormalization.ipynb)
+**2. Adding Batch Normalization: (2_BatchNormalization.ipynb)**
 
-Goal: Incorporate Batch Normalization to enhance accuracy and training efficiency.
-Results:
+**Goal:** Incorporate Batch Normalization to enhance accuracy and training efficiency.
+
+**Results:**
 Parameters: 7,348
 Best Train Accuracy: 99.66%
 Best Test Accuracy: 99.32%
-Analysis:
+
+**Analysis:**
 Batch Normalization significantly improves the model's efficiency.
 However, the model continues to exhibit overfitting.
 
-3. Introducing Dropout for Regularization: (3_Dropout.ipynb)
+**3. Introducing Dropout for Regularization: (3_Dropout.ipynb)**
 
-Goal: Reduce overfitting by applying Dropout as a regularization technique.
-Results:
+**Goal:** Reduce overfitting by applying Dropout as a regularization technique.
+
+**Results:**
 Parameters: 7,348
 Best Train Accuracy: 99.07%
 Best Test Accuracy: 99.40%
-Analysis:
+
+**Analysis:**
 Dropout reduces the gap between train and test accuracy, mitigating overfitting.
 Regularization ensures that some neuron outputs are nullified, making the model more robust.
 
-4. Applying Data Augmentation: (4_augmentation.ipynb)
+**4. Applying Data Augmentation: (4_augmentation.ipynb)**
 
-Goal: Use data augmentation to create a more complex training dataset and further improve test accuracy.
-Results:
+**Goal:** Use data augmentation to create a more complex training dataset and further improve test accuracy.
+
+**Results:**
 Parameters: 7,348
 Best Train Accuracy: 97.85%
 Best Test Accuracy: 99.42%
-Analysis:
+
+**Analysis:**
 Augmentation adds variability to the training data, leading to better generalization.
 Test accuracy consistently reaches 99.4% within two epochs.
 
